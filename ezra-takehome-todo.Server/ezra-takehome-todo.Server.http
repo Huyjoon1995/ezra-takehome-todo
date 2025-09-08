@@ -1,0 +1,6 @@
+@ezra_takehome_todo.Server_HostAddress = http://localhost:5123
+
+GET {{ezra_takehome_todo.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
