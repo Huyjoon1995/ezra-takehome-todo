@@ -85,3 +85,16 @@ All endpoints require JWT authentication:
 - Implement real-time updates with WebSockets
 - Add comprehensive input validation
 - Set up CI/CD pipeline
+
+## Thought Process
+
+When approaching this take-home:
+
+1.  **Started with Backend** -- built a minimal but extendable API with
+    CRUD operations, keeping in mind how it would scale with a real
+    database.
+2.  **Implemented Frontend** -- focused on clear UI state management
+    with React hooks and TypeScript interfaces and MUI for huge component ready with accessibility in mind. 
+3.  **Connected Both Sides** -- ensured smooth JSON communication and
+    tested round-trip interactions.
+4.  **Added Tests** -- end to end test using playwright to ensure correct business flow
