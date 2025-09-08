@@ -36,7 +36,7 @@ Create an Auth0 account or use existing Google account to authenticate.
 ### Tests
 ```bash
 cd ezra-takehome-todo.client
-npm run test:e2e
+npm run test:e2e:ci
 ```
 
 ## API Endpoints
