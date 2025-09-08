@@ -25,16 +25,13 @@ A full-stack todo application with .NET Core backend and React frontend.
    dotnet ef migrations add InitialCreate
    dotnet ef database update
    ```
-3. **Start the backend** - Run the `ezra-takehome-todo.Server` project
+3. **Start the project** - Hit **Start** in Visual Studio to launch both backend and frontend
    - API available at: `https://localhost:7038`
    - Swagger UI available at: `https://localhost:7038/swagger`
-4. **Start the frontend** - Run the `ezra-takehome-todo.client` project
    - App available at: `https://localhost:59739`
 
 ### Auth0 Setup
-1. Create Auth0 SPA application
-2. Set callback URLs to `https://localhost:59739`
-3. Create API with identifier `https://localhost:7038/api`
+Create an Auth0 account or use existing Google account to authenticate.
 
 ### Tests
 ```bash
