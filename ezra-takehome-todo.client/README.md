@@ -101,8 +101,3 @@ When approaching this take-home:
 3.  **Connected Both Sides** -- ensured smooth JSON communication and
     tested round-trip interactions.
 4.  **Added Tests** -- end to end test using playwright to ensure correct business flow
-
-My goal was to strike a balance between **simplicity** (for a take-home
-test) and **production readiness** (showing how I would extend it in a
-real project).
-
